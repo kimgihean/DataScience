@@ -195,7 +195,7 @@ def best_n(df, ft_name, n):
     
     
 # main code
-data = pd.read_csv("C:/workspace/data_science/TermProject/ecommerce_shipping.csv")
+data = pd.read_csv("/ecommerce_shipping.csv")
 target_feature = 'Reached.on.Time_Y.N'
 other_feature = ['Warehouse_block', 
                 'Mode_of_Shipment',
