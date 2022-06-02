@@ -1,5 +1,5 @@
 # DataScience TermProject_2022
-### Auto ML for regression & classification & ensemble<br><br>
+### Auto ML for regression & classification & ensemble<br>and find best models<br><br>
 
 
 ## def autoML
