@@ -92,6 +92,17 @@ def autoML(data, X, y):
         return scaled_train, scaled_test
 
     def Classifier(X, y, model):
+        '''
+        def : Classification
+        input:
+          X : Other features
+          Y : target feature (Reached.on.Time_Y.N)
+          model : classification model (decision tree, kneighbors, logistic)
+        return :
+            cross val score
+            auc score
+            r2 score
+        '''
         return_res=[]
         
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
@@ -141,6 +152,17 @@ def autoML(data, X, y):
                 
         return return_res
     def Regression(X, y, model):
+        '''
+        def : Regression
+        input:
+            X : Other features
+            Y : target feature (Reached.on.Time_Y.N)
+            model : classification model (polynomialRegression, multipleRegression)
+        return :
+            cross val score
+            auc score
+            r2 score
+        '''
         return_res=[]
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
@@ -181,6 +203,17 @@ def autoML(data, X, y):
         return return_res
     
     def Ensemble(X, y, model):
+        '''
+        def : Ensemble
+        input:
+            X : Other features
+            Y : target feature (Reached.on.Time_Y.N)
+            model : ensemble model (RandomForest, GradientBoosting)
+        return :
+            cross val score
+            auc score
+            r2 score
+        '''
         return_res=[]
         
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
