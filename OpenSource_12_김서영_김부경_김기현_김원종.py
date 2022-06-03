@@ -3,7 +3,7 @@
 
 This file is finding best score function after preprocessing yourself
     Algorithm Method
-        Clissifing  : Decision Tree, KNN, LogisticRegresison
+        Classifing  : Decision Tree, KNN, LogisticRegresison
         Regression  : Polynomial Regression, Multiple Regression
         Ensemble    : Random Forest, Gradient Boosting
 """
