@@ -7,9 +7,9 @@
 
 
 >- __Scalers__ __ <em>def Scaling</em>
->  -  StandardScaler
->  - MinMaxScaler
->  - RobustScaler
+>   -  StandardScaler
+>   - MinMaxScaler
+>   - RobustScaler
 >
 >- __Models__ __ <em>def Regression, def Classifier, def Ensemble</em>
 >
@@ -20,10 +20,10 @@
 >|  | `LogisticRegression` |  |
 >
 >- __Evaluations__
->  - cross_val_score(score_cv)
->  - auc(score_auc)
->  - accuracy_score(score_ac)
->  - r2_score(score_r2)<br>
+>   - cross_val_score(score_cv)
+>   - auc(score_auc)
+>   - accuracy_score(score_ac)
+>   - r2_score(score_r2)<br>
 
 - __Parameters__
   - `data` : Data in the type of a DataFrame with dirty data removed, The target data is binary classification.
